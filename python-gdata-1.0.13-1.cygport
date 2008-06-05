@@ -1,0 +1,8 @@
+inherit distutils
+
+DESCRIPTION="Python API for Google web services"
+HOMEPAGE="http://code.google.com/p/gdata-python-client/"
+SRC_URI="http://gdata-python-client.googlecode.com/files/gdata.py-${PV}.tar.gz"
+SRC_DIR="gdata.py-${PV}"
+
+DOCS="RELEASE_NOTES.txt"

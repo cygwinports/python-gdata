@@ -1,0 +1,131 @@
+python-gdata
+------------------------------------------
+The Google data Python Client Library provides a library and source code 
+that make it easy to access data through Google Data APIs.
+
+Runtime requirements:
+  python-2.5.2-1
+
+Build requirements:
+  cygport-0.3.11-1
+  python-2.5.2-1
+  python-setuptools-0.6c5-2
+
+Canonical website:
+  http://code.google.com/p/gdata-python-client/
+
+Canonical download:
+  http://gdata-python-client.googlecode.com/files/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-gdata-1.0.13-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-gdata-1.0.13-X.cygport all
+
+This will create:
+  /usr/src/python-gdata-1.0.13-X-src.tar.bz2
+  /usr/src/python-gdata-1.0.13-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/python2.5/site-packages/atom/__init__.py
+  /usr/lib/python2.5/site-packages/atom/__init__.pyc
+  /usr/lib/python2.5/site-packages/atom/__init__.pyo
+  /usr/lib/python2.5/site-packages/atom/service.py
+  /usr/lib/python2.5/site-packages/atom/service.pyc
+  /usr/lib/python2.5/site-packages/atom/service.pyo
+  /usr/lib/python2.5/site-packages/gdata.py-1.0.13-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/gdata/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/apps/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/apps/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/apps/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/apps/service.py
+  /usr/lib/python2.5/site-packages/gdata/apps/service.pyc
+  /usr/lib/python2.5/site-packages/gdata/apps/service.pyo
+  /usr/lib/python2.5/site-packages/gdata/auth.py
+  /usr/lib/python2.5/site-packages/gdata/auth.pyc
+  /usr/lib/python2.5/site-packages/gdata/auth.pyo
+  /usr/lib/python2.5/site-packages/gdata/base/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/base/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/base/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/base/service.py
+  /usr/lib/python2.5/site-packages/gdata/base/service.pyc
+  /usr/lib/python2.5/site-packages/gdata/base/service.pyo
+  /usr/lib/python2.5/site-packages/gdata/calendar/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/calendar/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/calendar/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/calendar/service.py
+  /usr/lib/python2.5/site-packages/gdata/calendar/service.pyc
+  /usr/lib/python2.5/site-packages/gdata/calendar/service.pyo
+  /usr/lib/python2.5/site-packages/gdata/codesearch/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/codesearch/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/codesearch/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/codesearch/service.py
+  /usr/lib/python2.5/site-packages/gdata/codesearch/service.pyc
+  /usr/lib/python2.5/site-packages/gdata/codesearch/service.pyo
+  /usr/lib/python2.5/site-packages/gdata/contacts/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/contacts/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/contacts/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/contacts/service.py
+  /usr/lib/python2.5/site-packages/gdata/contacts/service.pyc
+  /usr/lib/python2.5/site-packages/gdata/contacts/service.pyo
+  /usr/lib/python2.5/site-packages/gdata/docs/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/docs/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/docs/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/docs/service.py
+  /usr/lib/python2.5/site-packages/gdata/docs/service.pyc
+  /usr/lib/python2.5/site-packages/gdata/docs/service.pyo
+  /usr/lib/python2.5/site-packages/gdata/exif/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/exif/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/exif/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/geo/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/geo/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/geo/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/media/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/media/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/media/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/photos/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/photos/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/photos/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/photos/service.py
+  /usr/lib/python2.5/site-packages/gdata/photos/service.pyc
+  /usr/lib/python2.5/site-packages/gdata/photos/service.pyo
+  /usr/lib/python2.5/site-packages/gdata/service.py
+  /usr/lib/python2.5/site-packages/gdata/service.pyc
+  /usr/lib/python2.5/site-packages/gdata/service.pyo
+  /usr/lib/python2.5/site-packages/gdata/spreadsheet/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/spreadsheet/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/spreadsheet/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/spreadsheet/service.py
+  /usr/lib/python2.5/site-packages/gdata/spreadsheet/service.pyc
+  /usr/lib/python2.5/site-packages/gdata/spreadsheet/service.pyo
+  /usr/lib/python2.5/site-packages/gdata/spreadsheet/text_db.py
+  /usr/lib/python2.5/site-packages/gdata/spreadsheet/text_db.pyc
+  /usr/lib/python2.5/site-packages/gdata/spreadsheet/text_db.pyo
+  /usr/lib/python2.5/site-packages/gdata/test_data.py
+  /usr/lib/python2.5/site-packages/gdata/test_data.pyc
+  /usr/lib/python2.5/site-packages/gdata/test_data.pyo
+  /usr/lib/python2.5/site-packages/gdata/urlfetch.py
+  /usr/lib/python2.5/site-packages/gdata/urlfetch.pyc
+  /usr/lib/python2.5/site-packages/gdata/urlfetch.pyo
+  /usr/share/doc/python-gdata-1.0.13/INSTALL.txt
+  /usr/share/doc/python-gdata-1.0.13/README.txt
+
+------------------
+
+Port Notes:
+
+----- version 1.0.13-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

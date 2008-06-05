@@ -1,0 +1,5 @@
+category: Python Web
+requires: python
+sdesc: "Python Google data API library"
+ldesc: "The Google data Python Client Library provides a library and 
+source code that make it easy to access data through Google Data APIs."
