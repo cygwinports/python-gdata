@@ -7,7 +7,7 @@ Runtime requirements:
   python-2.5.2-3
 
 Build requirements:
-  cygport-0.4.0-1
+  cygport-0.4.2-1
   python-2.5.2-3
   python-setuptools-0.6c6-1
 
@@ -20,15 +20,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-gdata-1.2.1-X-src.tar.bz2
+  unpack python-gdata-1.2.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-gdata-1.2.1-X.cygport all
+  cygport ./python-gdata-1.2.2-X.cygport all
 
 This will create:
-  /usr/src/python-gdata-1.2.1-X-src.tar.bz2
-  /usr/src/python-gdata-1.2.1-X.tar.bz2
+  /usr/src/python-gdata-1.2.2-X-src.tar.bz2
+  /usr/src/python-gdata-1.2.2-X.tar.bz2
 
 -------------------------------------------
 
@@ -58,7 +58,7 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/atom/url.py
   /usr/lib/python2.5/site-packages/atom/url.pyc
   /usr/lib/python2.5/site-packages/atom/url.pyo
-  /usr/lib/python2.5/site-packages/gdata.py-1.2.1-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/gdata.py-1.2.2-py2.5.egg-info
   /usr/lib/python2.5/site-packages/gdata/__init__.py
   /usr/lib/python2.5/site-packages/gdata/__init__.pyc
   /usr/lib/python2.5/site-packages/gdata/__init__.pyo
@@ -71,6 +71,18 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/gdata/apps/__init__.py
   /usr/lib/python2.5/site-packages/gdata/apps/__init__.pyc
   /usr/lib/python2.5/site-packages/gdata/apps/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/apps/emailsettings/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/apps/emailsettings/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/apps/emailsettings/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/apps/emailsettings/service.py
+  /usr/lib/python2.5/site-packages/gdata/apps/emailsettings/service.pyc
+  /usr/lib/python2.5/site-packages/gdata/apps/emailsettings/service.pyo
+  /usr/lib/python2.5/site-packages/gdata/apps/migration/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/apps/migration/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/apps/migration/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/apps/migration/service.py
+  /usr/lib/python2.5/site-packages/gdata/apps/migration/service.pyc
+  /usr/lib/python2.5/site-packages/gdata/apps/migration/service.pyo
   /usr/lib/python2.5/site-packages/gdata/apps/service.py
   /usr/lib/python2.5/site-packages/gdata/apps/service.pyc
   /usr/lib/python2.5/site-packages/gdata/apps/service.pyo
@@ -149,19 +161,28 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/gdata/urlfetch.py
   /usr/lib/python2.5/site-packages/gdata/urlfetch.pyc
   /usr/lib/python2.5/site-packages/gdata/urlfetch.pyo
+  /usr/lib/python2.5/site-packages/gdata/webmastertools/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/webmastertools/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/webmastertools/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/webmastertools/service.py
+  /usr/lib/python2.5/site-packages/gdata/webmastertools/service.pyc
+  /usr/lib/python2.5/site-packages/gdata/webmastertools/service.pyo
   /usr/lib/python2.5/site-packages/gdata/youtube/__init__.py
   /usr/lib/python2.5/site-packages/gdata/youtube/__init__.pyc
   /usr/lib/python2.5/site-packages/gdata/youtube/__init__.pyo
   /usr/lib/python2.5/site-packages/gdata/youtube/service.py
   /usr/lib/python2.5/site-packages/gdata/youtube/service.pyc
   /usr/lib/python2.5/site-packages/gdata/youtube/service.pyo
-  /usr/share/doc/python-gdata-1.2.1/INSTALL.txt
-  /usr/share/doc/python-gdata-1.2.1/README.txt
-  /usr/share/doc/python-gdata-1.2.1/RELEASE_NOTES.txt
+  /usr/share/doc/python-gdata-1.2.2/INSTALL.txt
+  /usr/share/doc/python-gdata-1.2.2/README.txt
+  /usr/share/doc/python-gdata-1.2.2/RELEASE_NOTES.txt
 
 ------------------
 
 Port Notes:
+
+----- version 1.2.2-1 -----
+Version bump.
 
 ----- version 1.2.1-1 -----
 Version bump.
