@@ -4,12 +4,12 @@ The Google data Python Client Library provides a library and source code
 that make it easy to access data through Google Data APIs.
 
 Runtime requirements:
-  python-2.5.2-3
+  python-2.5.2-4
 
 Build requirements:
-  cygport-0.4.2-1
-  python-2.5.2-3
-  python-setuptools-0.6c6-1
+  cygport-0.4.3-1
+  python-2.5.2-4
+  python-setuptools-0.6c9-1
 
 Canonical website:
   http://code.google.com/p/gdata-python-client/
@@ -20,15 +20,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-gdata-1.2.2-X-src.tar.bz2
+  unpack python-gdata-1.2.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-gdata-1.2.2-X.cygport all
+  cygport ./python-gdata-1.2.3-X.cygport all
 
 This will create:
-  /usr/src/python-gdata-1.2.2-X-src.tar.bz2
-  /usr/src/python-gdata-1.2.2-X.tar.bz2
+  /usr/src/python-gdata-1.2.3-X-src.tar.bz2
+  /usr/src/python-gdata-1.2.3-X.tar.bz2
 
 -------------------------------------------
 
@@ -37,6 +37,9 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/atom/__init__.py
   /usr/lib/python2.5/site-packages/atom/__init__.pyc
   /usr/lib/python2.5/site-packages/atom/__init__.pyo
+  /usr/lib/python2.5/site-packages/atom/core.py
+  /usr/lib/python2.5/site-packages/atom/core.pyc
+  /usr/lib/python2.5/site-packages/atom/core.pyo
   /usr/lib/python2.5/site-packages/atom/http.py
   /usr/lib/python2.5/site-packages/atom/http.pyc
   /usr/lib/python2.5/site-packages/atom/http.pyo
@@ -58,7 +61,70 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/atom/url.py
   /usr/lib/python2.5/site-packages/atom/url.pyc
   /usr/lib/python2.5/site-packages/atom/url.pyo
-  /usr/lib/python2.5/site-packages/gdata.py-1.2.2-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/gdata.py-1.2.3-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Cipher/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Cipher/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Cipher/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Hash/HMAC.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Hash/HMAC.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Hash/HMAC.pyo
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Hash/MD5.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Hash/MD5.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Hash/MD5.pyo
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Hash/SHA.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Hash/SHA.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Hash/SHA.pyo
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Hash/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Hash/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Hash/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Protocol/AllOrNothing.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Protocol/AllOrNothing.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Protocol/AllOrNothing.pyo
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Protocol/Chaffing.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Protocol/Chaffing.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Protocol/Chaffing.pyo
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Protocol/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Protocol/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Protocol/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/Crypto/PublicKey/DSA.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/PublicKey/DSA.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/PublicKey/DSA.pyo
+  /usr/lib/python2.5/site-packages/gdata/Crypto/PublicKey/ElGamal.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/PublicKey/ElGamal.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/PublicKey/ElGamal.pyo
+  /usr/lib/python2.5/site-packages/gdata/Crypto/PublicKey/RSA.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/PublicKey/RSA.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/PublicKey/RSA.pyo
+  /usr/lib/python2.5/site-packages/gdata/Crypto/PublicKey/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/PublicKey/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/PublicKey/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/Crypto/PublicKey/pubkey.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/PublicKey/pubkey.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/PublicKey/pubkey.pyo
+  /usr/lib/python2.5/site-packages/gdata/Crypto/PublicKey/qNEW.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/PublicKey/qNEW.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/PublicKey/qNEW.pyo
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Util/RFC1751.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Util/RFC1751.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Util/RFC1751.pyo
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Util/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Util/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Util/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Util/number.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Util/number.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Util/number.pyo
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Util/randpool.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Util/randpool.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Util/randpool.pyo
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Util/test.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Util/test.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/Util/test.pyo
+  /usr/lib/python2.5/site-packages/gdata/Crypto/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/Crypto/test.py
+  /usr/lib/python2.5/site-packages/gdata/Crypto/test.pyc
+  /usr/lib/python2.5/site-packages/gdata/Crypto/test.pyo
   /usr/lib/python2.5/site-packages/gdata/__init__.py
   /usr/lib/python2.5/site-packages/gdata/__init__.pyc
   /usr/lib/python2.5/site-packages/gdata/__init__.pyo
@@ -137,6 +203,12 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/gdata/media/__init__.py
   /usr/lib/python2.5/site-packages/gdata/media/__init__.pyc
   /usr/lib/python2.5/site-packages/gdata/media/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/oauth/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/oauth/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/oauth/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/oauth/rsa.py
+  /usr/lib/python2.5/site-packages/gdata/oauth/rsa.pyc
+  /usr/lib/python2.5/site-packages/gdata/oauth/rsa.pyo
   /usr/lib/python2.5/site-packages/gdata/photos/__init__.py
   /usr/lib/python2.5/site-packages/gdata/photos/__init__.pyc
   /usr/lib/python2.5/site-packages/gdata/photos/__init__.pyo
@@ -158,6 +230,186 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/gdata/test_data.py
   /usr/lib/python2.5/site-packages/gdata/test_data.pyc
   /usr/lib/python2.5/site-packages/gdata/test_data.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/BaseDB.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/BaseDB.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/BaseDB.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/Checker.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/Checker.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/Checker.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/FileObject.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/FileObject.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/FileObject.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/HandshakeSettings.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/HandshakeSettings.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/HandshakeSettings.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/Session.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/Session.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/Session.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/SessionCache.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/SessionCache.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/SessionCache.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/SharedKeyDB.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/SharedKeyDB.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/SharedKeyDB.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/TLSConnection.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/TLSConnection.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/TLSConnection.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/TLSRecordLayer.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/TLSRecordLayer.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/TLSRecordLayer.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/VerifierDB.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/VerifierDB.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/VerifierDB.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/X509.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/X509.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/X509.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/X509CertChain.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/X509CertChain.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/X509CertChain.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/api.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/api.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/api.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/constants.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/constants.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/constants.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/errors.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/errors.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/errors.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/AsyncStateMachine.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/AsyncStateMachine.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/AsyncStateMachine.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/ClientHelper.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/ClientHelper.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/ClientHelper.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/HTTPTLSConnection.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/HTTPTLSConnection.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/HTTPTLSConnection.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/IMAP4_TLS.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/IMAP4_TLS.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/IMAP4_TLS.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/IntegrationHelper.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/IntegrationHelper.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/IntegrationHelper.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/POP3_TLS.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/POP3_TLS.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/POP3_TLS.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/SMTP_TLS.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/SMTP_TLS.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/SMTP_TLS.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/TLSAsyncDispatcherMixIn.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/TLSAsyncDispatcherMixIn.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/TLSAsyncDispatcherMixIn.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/TLSSocketServerMixIn.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/TLSSocketServerMixIn.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/TLSSocketServerMixIn.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/TLSTwistedProtocolWrapper.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/TLSTwistedProtocolWrapper.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/TLSTwistedProtocolWrapper.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/XMLRPCTransport.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/XMLRPCTransport.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/XMLRPCTransport.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/integration/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/mathtls.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/mathtls.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/mathtls.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/messages.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/messages.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/messages.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/AES.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/AES.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/AES.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/ASN1Parser.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/ASN1Parser.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/ASN1Parser.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/Cryptlib_AES.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/Cryptlib_AES.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/Cryptlib_AES.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/Cryptlib_RC4.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/Cryptlib_RC4.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/Cryptlib_RC4.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/Cryptlib_TripleDES.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/Cryptlib_TripleDES.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/Cryptlib_TripleDES.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/OpenSSL_AES.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/OpenSSL_AES.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/OpenSSL_AES.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/OpenSSL_RC4.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/OpenSSL_RC4.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/OpenSSL_RC4.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/OpenSSL_RSAKey.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/OpenSSL_RSAKey.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/OpenSSL_RSAKey.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/OpenSSL_TripleDES.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/OpenSSL_TripleDES.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/OpenSSL_TripleDES.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/PyCrypto_AES.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/PyCrypto_AES.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/PyCrypto_AES.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/PyCrypto_RC4.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/PyCrypto_RC4.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/PyCrypto_RC4.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/PyCrypto_RSAKey.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/PyCrypto_RSAKey.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/PyCrypto_RSAKey.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/PyCrypto_TripleDES.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/PyCrypto_TripleDES.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/PyCrypto_TripleDES.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/Python_AES.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/Python_AES.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/Python_AES.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/Python_RC4.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/Python_RC4.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/Python_RC4.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/Python_RSAKey.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/Python_RSAKey.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/Python_RSAKey.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/RC4.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/RC4.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/RC4.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/RSAKey.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/RSAKey.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/RSAKey.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/TripleDES.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/TripleDES.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/TripleDES.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/cipherfactory.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/cipherfactory.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/cipherfactory.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/codec.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/codec.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/codec.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/compat.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/compat.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/compat.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/cryptomath.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/cryptomath.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/cryptomath.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/dateFuncs.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/dateFuncs.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/dateFuncs.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/hmac.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/hmac.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/hmac.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/jython_compat.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/jython_compat.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/jython_compat.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/keyfactory.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/keyfactory.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/keyfactory.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/rijndael.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/rijndael.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/rijndael.pyo
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/xmltools.py
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/xmltools.pyc
+  /usr/lib/python2.5/site-packages/gdata/tlslite/utils/xmltools.pyo
   /usr/lib/python2.5/site-packages/gdata/urlfetch.py
   /usr/lib/python2.5/site-packages/gdata/urlfetch.pyc
   /usr/lib/python2.5/site-packages/gdata/urlfetch.pyo
@@ -173,13 +425,16 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/gdata/youtube/service.py
   /usr/lib/python2.5/site-packages/gdata/youtube/service.pyc
   /usr/lib/python2.5/site-packages/gdata/youtube/service.pyo
-  /usr/share/doc/python-gdata-1.2.2/INSTALL.txt
-  /usr/share/doc/python-gdata-1.2.2/README.txt
-  /usr/share/doc/python-gdata-1.2.2/RELEASE_NOTES.txt
+  /usr/share/doc/python-gdata-1.2.3/INSTALL.txt
+  /usr/share/doc/python-gdata-1.2.3/README.txt
+  /usr/share/doc/python-gdata-1.2.3/RELEASE_NOTES.txt
 
 ------------------
 
 Port Notes:
+
+----- version 1.2.3-1 -----
+Version bump.
 
 ----- version 1.2.2-1 -----
 Version bump.
