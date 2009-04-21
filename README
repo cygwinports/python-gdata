@@ -4,12 +4,11 @@ The Google data Python Client Library provides a library and source code
 that make it easy to access data through Google Data APIs.
 
 Runtime requirements:
-  python-2.5.2-4
+  python-2.5.4-10
 
 Build requirements:
-  cygport-0.4.3-1
-  python-2.5.2-4
-  python-setuptools-0.6c9-1
+  cygport-0.9.6-1
+  python-2.5.4-1
 
 Canonical website:
   http://code.google.com/p/gdata-python-client/
@@ -20,15 +19,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-gdata-1.2.3-X-src.tar.bz2
+  unpack python-gdata-1.3.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-gdata-1.2.3-X.cygport all
+  cygport ./python-gdata-1.3.0-X.cygport all
 
 This will create:
-  /usr/src/python-gdata-1.2.3-X-src.tar.bz2
-  /usr/src/python-gdata-1.2.3-X.tar.bz2
+  /usr/src/python-gdata-1.3.0-X-src.tar.bz2
+  /usr/src/python-gdata-1.3.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -37,18 +36,30 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/atom/__init__.py
   /usr/lib/python2.5/site-packages/atom/__init__.pyc
   /usr/lib/python2.5/site-packages/atom/__init__.pyo
+  /usr/lib/python2.5/site-packages/atom/auth.py
+  /usr/lib/python2.5/site-packages/atom/auth.pyc
+  /usr/lib/python2.5/site-packages/atom/auth.pyo
+  /usr/lib/python2.5/site-packages/atom/client.py
+  /usr/lib/python2.5/site-packages/atom/client.pyc
+  /usr/lib/python2.5/site-packages/atom/client.pyo
   /usr/lib/python2.5/site-packages/atom/core.py
   /usr/lib/python2.5/site-packages/atom/core.pyc
   /usr/lib/python2.5/site-packages/atom/core.pyo
   /usr/lib/python2.5/site-packages/atom/http.py
   /usr/lib/python2.5/site-packages/atom/http.pyc
   /usr/lib/python2.5/site-packages/atom/http.pyo
+  /usr/lib/python2.5/site-packages/atom/http_core.py
+  /usr/lib/python2.5/site-packages/atom/http_core.pyc
+  /usr/lib/python2.5/site-packages/atom/http_core.pyo
   /usr/lib/python2.5/site-packages/atom/http_interface.py
   /usr/lib/python2.5/site-packages/atom/http_interface.pyc
   /usr/lib/python2.5/site-packages/atom/http_interface.pyo
   /usr/lib/python2.5/site-packages/atom/mock_http.py
   /usr/lib/python2.5/site-packages/atom/mock_http.pyc
   /usr/lib/python2.5/site-packages/atom/mock_http.pyo
+  /usr/lib/python2.5/site-packages/atom/mock_http_core.py
+  /usr/lib/python2.5/site-packages/atom/mock_http_core.pyc
+  /usr/lib/python2.5/site-packages/atom/mock_http_core.pyo
   /usr/lib/python2.5/site-packages/atom/mock_service.py
   /usr/lib/python2.5/site-packages/atom/mock_service.pyc
   /usr/lib/python2.5/site-packages/atom/mock_service.pyo
@@ -61,7 +72,7 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/atom/url.py
   /usr/lib/python2.5/site-packages/atom/url.pyc
   /usr/lib/python2.5/site-packages/atom/url.pyo
-  /usr/lib/python2.5/site-packages/gdata.py-1.2.3-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/gdata-1.3.0-py2.5.egg-info
   /usr/lib/python2.5/site-packages/gdata/Crypto/Cipher/__init__.py
   /usr/lib/python2.5/site-packages/gdata/Crypto/Cipher/__init__.pyc
   /usr/lib/python2.5/site-packages/gdata/Crypto/Cipher/__init__.pyo
@@ -143,6 +154,12 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/gdata/apps/emailsettings/service.py
   /usr/lib/python2.5/site-packages/gdata/apps/emailsettings/service.pyc
   /usr/lib/python2.5/site-packages/gdata/apps/emailsettings/service.pyo
+  /usr/lib/python2.5/site-packages/gdata/apps/groups/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/apps/groups/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/apps/groups/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/apps/groups/service.py
+  /usr/lib/python2.5/site-packages/gdata/apps/groups/service.pyc
+  /usr/lib/python2.5/site-packages/gdata/apps/groups/service.pyo
   /usr/lib/python2.5/site-packages/gdata/apps/migration/__init__.py
   /usr/lib/python2.5/site-packages/gdata/apps/migration/__init__.pyc
   /usr/lib/python2.5/site-packages/gdata/apps/migration/__init__.pyo
@@ -197,9 +214,18 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/gdata/exif/__init__.py
   /usr/lib/python2.5/site-packages/gdata/exif/__init__.pyc
   /usr/lib/python2.5/site-packages/gdata/exif/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/gauth.py
+  /usr/lib/python2.5/site-packages/gdata/gauth.pyc
+  /usr/lib/python2.5/site-packages/gdata/gauth.pyo
   /usr/lib/python2.5/site-packages/gdata/geo/__init__.py
   /usr/lib/python2.5/site-packages/gdata/geo/__init__.pyc
   /usr/lib/python2.5/site-packages/gdata/geo/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/health/__init__.py
+  /usr/lib/python2.5/site-packages/gdata/health/__init__.pyc
+  /usr/lib/python2.5/site-packages/gdata/health/__init__.pyo
+  /usr/lib/python2.5/site-packages/gdata/health/service.py
+  /usr/lib/python2.5/site-packages/gdata/health/service.pyc
+  /usr/lib/python2.5/site-packages/gdata/health/service.pyo
   /usr/lib/python2.5/site-packages/gdata/media/__init__.py
   /usr/lib/python2.5/site-packages/gdata/media/__init__.pyc
   /usr/lib/python2.5/site-packages/gdata/media/__init__.pyo
@@ -227,6 +253,12 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/gdata/spreadsheet/text_db.py
   /usr/lib/python2.5/site-packages/gdata/spreadsheet/text_db.pyc
   /usr/lib/python2.5/site-packages/gdata/spreadsheet/text_db.pyo
+  /usr/lib/python2.5/site-packages/gdata/test_config.py
+  /usr/lib/python2.5/site-packages/gdata/test_config.pyc
+  /usr/lib/python2.5/site-packages/gdata/test_config.pyo
+  /usr/lib/python2.5/site-packages/gdata/test_config_template.py
+  /usr/lib/python2.5/site-packages/gdata/test_config_template.pyc
+  /usr/lib/python2.5/site-packages/gdata/test_config_template.pyo
   /usr/lib/python2.5/site-packages/gdata/test_data.py
   /usr/lib/python2.5/site-packages/gdata/test_data.pyc
   /usr/lib/python2.5/site-packages/gdata/test_data.pyo
@@ -425,25 +457,15 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/gdata/youtube/service.py
   /usr/lib/python2.5/site-packages/gdata/youtube/service.pyc
   /usr/lib/python2.5/site-packages/gdata/youtube/service.pyo
-  /usr/share/doc/python-gdata-1.2.3/INSTALL.txt
-  /usr/share/doc/python-gdata-1.2.3/README.txt
-  /usr/share/doc/python-gdata-1.2.3/RELEASE_NOTES.txt
+  /usr/share/doc/python-gdata/README.txt
+  /usr/share/doc/python-gdata/RELEASE_NOTES.txt
 
 ------------------
 
 Port Notes:
 
------ version 1.2.3-1 -----
-Version bump.
-
------ version 1.2.2-1 -----
-Version bump.
-
------ version 1.2.1-1 -----
-Version bump.
-
------ version 1.0.13-1 -----
-Initial release for Cygwin.
+----- version 1.3.0-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
